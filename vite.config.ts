@@ -12,6 +12,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
+          retell: ['retell-client-js-sdk'],
           icons: ['lucide-react']
         }
       }
